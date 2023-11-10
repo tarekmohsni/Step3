@@ -1,0 +1,13 @@
+* Pour la qualité du code, on peut utiliser:
+- ESLint : il est utilisé pour l'analyse du code JavaScript. Il permet de détecter les erreurs de codage courantes.
+- SonarQube: il permet d'identifier les vulnérabilités, les bugs, la duplication, les problèmes et la couverture du code.
+
+* Les étapes pour la mise en place d'un processus CI/CD qui implique l'automatisation des étapes de construction, de test et de déploiement. 
+
+- Choisissez une plateforme CI/CD comme GitLab CI et utiliser un système de contrôle de version tel que Git
+- Créer un fichier de configuration (par exemple, .gitlab-ci.yml) dans le dépôt et définisser les tâches de construction, de test, d'analyse et de déploiement
+- Générer des artifacts (par exemple, des images Docker) qui peuvent être déployés.
+- Gérer les configurations et les variables d'environnement.
+- Configurer des notifications pour les statuts de construction et de déploiement.
+- Configurez des déclencheurs pour lancer automatiquement le pipeline CI/CD sur des demandes de push ou de pull de code.
+- Tester le pipeline CI/CD
